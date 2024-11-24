@@ -1,0 +1,59 @@
+body {
+    background-image: url(images/marmer.jpg);
+    background-color:rgb(4, 246, 250);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family:Cambria;
+    text-align: center;
+    font-size: 25px;
+    width: 1200px;
+    margin: auto;
+    border-style: double;
+    border-width: 5px;
+    border-color:rgb(55, 58, 58)
+}
+
+p {
+    font-family: "monaco", monospace;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    width: 900px;
+    margin: auto;
+    
+}
+p {outline-color:rgb(2, 31, 146);}
+            p.outset {outline-style: outset;}
+            
+    a:link, a:visited {
+        background-color: rgb(13, 60, 216);
+        color: black;
+        border: rgb(70, 73, 75);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover, a:active {
+        background-color: rgb(93, 96, 96);
+        color: white;
+      }
+      .bx{
+        font-family: monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-rendering: auto;
+        display: inline-block;
+        text-transform: none;
+        speak-as: none;
+        -webkit-font-smoothing:antialised;
+      }
+      .maps{
+        display: inline-block;
+        padding-left: 8%;
+        padding-bottom: 80px;}
